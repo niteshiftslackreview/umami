@@ -1,5 +1,6 @@
 :root {
   --zen-font-family: var(--font-inter), sans-serif;
+  --app-background: red;
 }
 
 /* Preserve the brand accent when Zen applies its light or dark theme tokens. */
@@ -20,7 +21,7 @@ html,
 body {
   font-family: var(--zen-font-family), sans-serif;
   color: var(--zen-fg);
-  background-color: red;
+  background-color: var(--app-background);
   width: 100%;
   min-height: 100vh;
 }
