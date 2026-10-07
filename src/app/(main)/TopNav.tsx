@@ -46,7 +46,7 @@ export function TopNav() {
       paddingRight="5"
       width="100%"
       zIndex={100}
-      backgroundColor="surface-raised"
+      style={{ backgroundColor: 'var(--app-background)' }}
     >
       <Row alignItems="center">
         <TeamsButton />
@@ -111,7 +111,7 @@ export function TopNav() {
           left: 0,
           right: 0,
           height: 16,
-          background: 'linear-gradient(to bottom, var(--zen-surface-raised), transparent)',
+          background: 'linear-gradient(to bottom, var(--app-background), transparent)',
           pointerEvents: 'none',
         }}
       />
