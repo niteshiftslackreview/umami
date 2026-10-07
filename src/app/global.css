@@ -20,7 +20,7 @@ html,
 body {
   font-family: var(--zen-font-family), sans-serif;
   color: var(--zen-fg);
-  background-color: var(--zen-surface-raised);
+  background-color: red;
   width: 100%;
   min-height: 100vh;
 }
